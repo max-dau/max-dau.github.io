@@ -2,8 +2,12 @@ html {
     background: #fff;
 }
 
-header {
-    
+@font-face {
+	font-family: 'BigJohn';
+	src: url('BigJohn.eot'); 
+	src:
+		url('fonts/BigJohn.otf') 
+		format('opentype');
 }
 
 p {
@@ -29,8 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
+    text-align: center;
+    font-family: BigJohn;
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
