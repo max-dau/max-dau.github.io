@@ -2,12 +2,18 @@ html {
     background: #fff;
 }
 
-header {
-    
+footer {
+    text-align:center;
+}
+
+.footerimg {
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
 }
 
 body {
-    background: #fff
+    background: #fff;
     color: #ddd;
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -58,5 +64,5 @@ img {
     background: transparent;
     display: block;
     margin: 1.3em auto;
-    max-width: 100%;
+    max-width: 100%
 }
