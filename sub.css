@@ -2,6 +2,14 @@ html {
     background: #fff;
 }
 
+@font-face {
+	font-family: 'BigJohn';
+	src: url('BigJohn.eot'); 
+	src:
+		url('fonts/BigJohn.otf') 
+		format('opentype');
+}
+
 footer {
     text-align:center;
 }
@@ -10,6 +18,14 @@ footer {
     display:inline-block;
     margin:5px 20px;
     padding:5px;
+}
+
+.menubuttons {
+    font-family:BigJohn;
+    color: #000;
+    display:inline-block;
+    margin-right: 10px;
+    float:right;
 }
 
 body {
