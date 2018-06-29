@@ -1,5 +1,17 @@
-html {
+html
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
     background: #fff;
+}
+
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    max-width: 100%;
 }
 
 @font-face {
@@ -23,7 +35,7 @@ p {
 footer {
     border-bottom: 2px solid;
     text-align: center;
-    margin: 50px;
+    margin: 25px;
 }
 
 .footerimg {
@@ -32,27 +44,12 @@ footer {
     padding:5px;
 }
 
-body {
-    line-height: 1.5;
-    margin: 0%;
-    max-width: 100%;
-    padding: 0em 0em 4em;
-}
-
-back, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #000;
     font-weight: 600;
     line-height: 1.3;
     font-family: Arial, sans-serif;
-}
-
-back {
-    color: #ccc;
-    float: right;
-    font-family: BigJohn, sans-serif;
-    font-size: 50px;
-    margin: 25px;
 }
 
 h1 {
@@ -81,9 +78,9 @@ h4 {
 }
 
 a {
-    vertical-align: middle;
     color: #555;
     text-decoration: none;
+    margin-top: 1.3em;
 }
 
 b, strong {
@@ -98,5 +95,6 @@ img {
     background: transparent;
     display: block;
     margin: 1.3em auto;
+    padding: 0;
     max-width: 100%;
 }

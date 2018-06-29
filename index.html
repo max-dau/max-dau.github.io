@@ -19,7 +19,8 @@
         
     </head>
     
-    <body style="background-color: #ccc">
+    
+    <body style="background-color: #ddd; height: 100%;">
         
         <div class="all">
         
@@ -39,7 +40,7 @@
             <a href="#portfolio">Showcase</a><br>
             <a href="#about">About</a>
         </h3></p>
-    
+        
         <footer>
             
             <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw">
@@ -69,23 +70,35 @@
         <header>
 
             <h2>Showcase</h2><br>
-            <a href="index.html#portfolio"><img src="images/portfolio/photography.png" height="40%" width="40%"></a>
-            <a href="graphic.html#portfolio"><img src="images/portfolio/design.png" height="40%" width="40%"></a>
-        
-        </header>
-
-            <h3><p style="align-content: center">Just some photos. It's pretty much what I upload on <a href=https://instagram.com/maxldoesphotography>Instagram</a> but I kinda wanted to have a website.</p></h3>
-
-            <img src="images/portfolio/photography/09.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/08.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/07.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/06.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/05.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/04.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/03.jpg" height="33.3%" width="33.3%" align=left>
-            <img src="images/portfolio/photography/02.jpg" height="33.3%" width="33.3%" align=left>        
-            <img src="images/portfolio/photography/01.jpg" height="33.3%" width="33.3%" align=left>
             
+            <p style="overflow: hidden;">
+            
+            <img src="images/portfolio/design.png" onclick="loadgraphic()" height="60%" width="60%">
+            
+                <script>
+                    function loadgraphic() {
+                        document.getElementById("showcase").innerHTML='<object type="text/html" data="graphic.html" width="100%" height="1250"></object>';
+                    }
+                </script>
+            
+            <img src="images/portfolio/photography.png" onclick="loadphoto()" height="60%" width="60%">
+            
+                <script>
+                    function loadphoto() {
+                        document.getElementById("showcase").innerHTML='<object type="text/html" data="photo.html" width="100%" height="1250"></object>';
+                    }
+                </script>
+            
+        
+                <p id="showcase">
+            
+                    <object type="text/html" data="photo.html" width="100%" height="1250"></object>
+        
+                </p>
+            </p>
+        
+        
+        <br>
         <header>
             
             <h2>About</h2>
@@ -100,7 +113,7 @@
                 I started to learn HTML one or two years ago, but I stopped because I didn't have anything exact which I could make, meaning that I lost the motivation. So now, I have my <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw">YouTube channel</a> and have started to really enjoy making videos, streaming, graphic designing, etc.. Now, I had the idea of building a website for my channel. At first, I wanted to build it with Squarespace or some similar service, but I decided that I could start doing it from scratch with HTML and graphic design, because I in general don't like using templates, especially because I learned to graphic design and learned the very basics of HTML and webdesign and so I have the ability to make a site which I can call my own, unique site, also when it is far away from the perfect webpage, but I'm quite surprised with how the page turned out. So this site will probably never be totally finished, I (at least hope) that I will keep working on it and improving it in at least the near future.
             </h4>
              
-        <a href="#start" class="back-to-top"><back>Back to top</back></a>
+            <a href="#start"><h1 style="text-align: right; color: #bbb; margin:25px; text-size: 20px;">Back to top</h1></a>
         
         </div>
     
