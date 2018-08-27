@@ -13,7 +13,26 @@
           gtag('config', 'UA-114929887-1');
         </script>
     
-        <link rel="shortcut icon" href="images/favicon/favicon.ico">
+        <!-- favicon -->
+        
+            <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+            <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/images/favicon/manifest.json">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+            <meta name="theme-color" content="#ffffff">
+        
     
         <title>maxl</title>
         
@@ -71,30 +90,32 @@
 
             <h2>Showcase</h2><br>
             
-            <p style="overflow: hidden;">
+        </header>
             
-            <img src="images/portfolio/design.png" onclick="loadgraphic()" height="60%" width="60%">
+            <p>
             
-                <script>
-                    function loadgraphic() {
-                        document.getElementById("showcase").innerHTML='<object type="text/html" data="graphic.html" width="100%" height="1250"></object>';
-                    }
-                </script>
-            
-            <img src="images/portfolio/photography.png" onclick="loadphoto()" height="60%" width="60%">
-            
-                <script>
-                    function loadphoto() {
-                        document.getElementById("showcase").innerHTML='<object type="text/html" data="photo.html" width="100%" height="1250"></object>';
-                    }
-                </script>
-            
+                <img src="images/designlogo.png" onclick="graphic()" height="60%" width="60%">
+                
+                    <script>
+                        
+                        function graphic() {
+                        document.getElementById("showcase").src = "images/design.png"
+                            }
+                        
+                    </script>
+
+                <img src="images/photologo.png" onclick="photo()" height="60%" width="60%">
+                
+                    <script>
+                        
+                        function photo() {
+                        document.getElementById("showcase").src = "images/photo.jpg"
+                            }
+                        
+                    </script>
+
+                <img id="showcase" src="images/photo.jpg">
         
-                <p id="showcase">
-            
-                    <object type="text/html" data="photo.html" width="100%" height="1250"></object>
-        
-                </p>
             </p>
         
         
