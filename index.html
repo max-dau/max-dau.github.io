@@ -1,142 +1,116 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
-    
-                    <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114929887-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-114929887-1');
-        </script>
-    
-        <!-- favicon -->
         
-            <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
-            <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
-            <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
-            <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
-            <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
-            <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
-            <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
-            <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
-            <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-            <link rel="manifest" href="/images/favicon/manifest.json">
-            <meta name="msapplication-TileColor" content="#ffffff">
-            <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
-            <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
-    
+            <!-- Favicon !-->
+            <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" sizes="any">
+            <link rel="icon" type="image/x-icon" href="images/favicon/favicon.png" sizes="any">
+            <link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon.ico" sizes="any">
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/favicon.png">
+        
         <title>maxl</title>
         
     </head>
     
-    
-    <body style="background-color: #ddd; height: 100%;">
+    <body>
+    <link rel="stylesheet" href="index.css">
         
-        <div class="all">
+        <!-- first page !-->
+        <a name="pageone"></a>
+        <div style="display: flex; align-items: center; flex-direction: column;">
         
-        <a name="start"></a>
-    
-        <header>
-        
-            <link rel="stylesheet" href="index.css">
-        
-            <h1 style="color: white; text-shadow: 4px 4px #000;"><br>I am maxl, This is my website.</h1>
-
-            <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw"><img src="images/header.png" alt="header" width="100%" height="100%"></a>
-        
-        </header>
-        
-        <p><h3>
-            <a href="#portfolio">Showcase</a><br>
-            <a href="#about">About</a>
-        </h3></p>
-        
-        <footer>
+            <!-- upper bar !-->
+            <div class="navbar">
             
-            <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw">
-                <div class="footerimg" style="width: 5%">
-                    <img src="images/social/youtube.png">
-            </div></a>
-
-            <a href="https://www.instagram.com/maxledits">
-                <div class="footerimg" style="width: 5%">
-                    <img src="images/social/instagramDesign.png">
-            </div></a>
-
-            <a href="https://www.instagram.com/maxldoesphotography">
-                <div class="footerimg" style="width: 5%">
-                    <img src="images/social/instagramPhoto.png">
-            </div></a>
-            
-            <a href="https://www.twitter.com/maxledits">
-                <div class="footerimg" style="width: 5%">
-                    <img src="images/social/twitter.png">
-            </div></a>
-
-        </footer>
-    
-            <a name="portfolio"></a>
+                <div style="padding-top: 0,5%; display: flex; justify-content: space-between;">
+                    <navbartext>MAXLVISUALS</navbartext>
         
-        <header>
-
-            <h2>Showcase</h2><br>
-            
-        </header>
-            
-            <p>
-            
-                <img src="images/designlogo.png" onclick="graphic()" height="60%" width="60%">
+                    <!-- links !-->
+                    <div style="margin-right: 30px;">
+                        <a href="https://www.instagram.com/maxlvisuals"><img src="images/instagramDesign.png" alt="my design instagram"></a>
+                        <a href="https://www.instagram.com/maxldoesphotography"><img src="images/instagramPhoto.png" alt="my photography instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw"><img src="images/youtube.png" alt="my youtube channel"></a>
+                    </div>
+                </div>
                 
-                    <script>
-                        
-                        function graphic() {
-                        document.getElementById("showcase").src = "images/design.png"
-                            }
-                        
-                    </script>
-
-                <img src="images/photologo.png" onclick="photo()" height="60%" width="60%">
-                
-                    <script>
-                        
-                        function photo() {
-                        document.getElementById("showcase").src = "images/photo.jpg"
-                            }
-                        
-                    </script>
-
-                <img id="showcase" src="images/photo.jpg">
-        
-            </p>
-        
-        
-        <br>
-        <header>
+            </div>
             
-            <h2>About</h2>
-            
-        </header>
-    
-            
-        <a name="about"></a>
-
-            <p><h4>
-                I pretty much built this website just because I was bored. I don't expect anyone to visit this page, actually I would be surprised if there were more than ten persons on here in the page's entire lifetime. <br>
-                I started to learn HTML one or two years ago, but I stopped because I didn't have anything exact which I could make, meaning that I lost the motivation. So now, I have my <a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw">YouTube channel</a> and have started to really enjoy making videos, streaming, graphic designing, etc.. Now, I had the idea of building a website for my channel. At first, I wanted to build it with Squarespace or some similar service, but I decided that I could start doing it from scratch with HTML and graphic design, because I in general don't like using templates, especially because I learned to graphic design and learned the very basics of HTML and webdesign and so I have the ability to make a site which I can call my own, unique site, also when it is far away from the perfect webpage, but I'm quite surprised with how the page turned out. So this site will probably never be totally finished, I (at least hope) that I will keep working on it and improving it in at least the near future.
-            </h4>
+            <!-- title !-->
+            <div style="padding-top: 10%; padding-bottom: 10%;">
+                <h1>MAXL</h1><br>
+                <h2><i>visuals</i></h2>
+            </div>
              
-            <a href="#start"><h1 style="text-align: right; color: #bbb; margin:25px; text-size: 20px;">Back to top</h1></a>
+            <!-- scrolldown !-->
+            <div>
+                <a href="#pagetwo"><img class="hoverscale" src="images/scrolldown.png" alt="scroll down"></a>
+            </div>
+                
+        </div>
+        
+        <!-- second page !-->
+        <a name="pagetwo"></a>
+        <div style="display: flex; background-color: #fff; margin-top: 5%; flex-direction: column; padding-bottom: 60px;">
+            
+            <!-- navbar !-->
+            <div class="navbar2">
+                <div><h3>PORTFOLIO</h3></div>
+            </div>
+            
+            <!-- portfolio !-->
+            <div class="row">
+                
+                <div class="column">
+                    <img src="images/portfolio/IMG_0212.jpg">
+                    <img src="images/portfolio/IMG_1249.jpg">
+                    <img src="images/portfolio/IMG_0558.jpg">
+                    <img src="images/portfolio/IMG_0931.jpg">
+                    <img src="images/portfolio/IMG_1198.jpg">
+                </div>
+                
+                <div class="column">
+                    <img src="images/portfolio/IMG_0738.jpg">
+                    <img src="images/portfolio/IMG_0510.jpg">
+                    <img src="images/portfolio/IMG_0808.jpg">
+                    <img src="images/portfolio/IMG_0828.jpg">
+                    <img src="images/portfolio/IMG_0539.jpg">
+                    <img src="images/portfolio/IMG_0727.jpg">
+                </div>
+                
+                <div class="column">
+                    <img src="images/portfolio/IMG_0931.jpg">
+                    <img src="images/portfolio/IMG_1072.jpg">
+                    <img src="images/portfolio/IMG_1170.jpg">
+                    <img src="images/portfolio/IMG_0662.jpg">
+                    <img src="images/portfolio/IMG_1177.jpg">
+                    <img src="images/portfolio/IMG_1182.jpg">     
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <!-- footer !-->
+        <div class="footer">
+            
+            <div class="hoverscale">
+                <div><a href="https://www.instagram.com/maxlvisuals"><img src="images/instagramDesign.png" alt="my design instagram"></div>
+                <div><h4>Design Instagram</h4></a></div>
+            </div>
+            
+            <div class="hoverscale">
+                <div><a href="https://www.instagram.com/maxldoesphotography"><img src="images/instagramPhoto.png" alt="my photography instagram"></div>
+                <div><h4>Photography Instagram</h4></a></div>
+            </div>
+            
+            <div class="hoverscale">
+                <div><a href="https://www.youtube.com/channel/UCEfXjU9qLtGZ9EM5nQwjIWw"><img src="images/youtube.png" alt="my youtube channel"></div>
+                <div><h4>My youtube channel</h4></a></div>
+            </div>
         
         </div>
-    
+        
     </body>
 </html>
